@@ -1,6 +1,5 @@
 import type { NextPage } from 'next';
-import Image from 'next/image';
-import { Box, Grid, Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import { MainLayout } from '../components/layouts';
 import CodeIcon from '@mui/icons-material/Code';
 
@@ -10,9 +9,7 @@ const Home: NextPage = () => {
       <Box
         sx={{
           position: 'absolute',
-          top: 'calc(100vh - 400px)',
-          padding: '10px 20px',
-          marginLeft: '8.5rem',
+          top: 'calc(100vh - 350px)',
         }}
       >
         <CodeIcon
@@ -28,7 +25,7 @@ const Home: NextPage = () => {
         <Box>
           <Typography variant="subtitle1">Patricia Sanz Escurin</Typography>
 
-          <Typography variant="h1">Software Developer</Typography>
+          <Typography variant="h1">Software Development</Typography>
           <Typography
             variant="body2"
             sx={{ marginTop: '10px', marginRight: '150px' }}

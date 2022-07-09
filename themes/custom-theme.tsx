@@ -72,6 +72,13 @@ export const customTheme = createTheme({
           fontSize: 20,
           fontWeight: 400,
         },
+        subtitle2: {
+          fontFamily: 'Domine',
+          color: '#fff',
+          opacity: 0.9,
+          fontSize: 16,
+          fontWeight: 400,
+        },
         body2: {
           fontSize: 18,
           lineHeight: 1.8,

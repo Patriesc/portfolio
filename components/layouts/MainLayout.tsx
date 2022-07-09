@@ -17,7 +17,9 @@ export const MainLayout: FC<Props> = ({ title, children }) => {
       <nav className="navbar">
         <Navbar />
       </nav>
-      <main>{children}</main>
+      <main style={{ margin: '100px auto', maxWidth: '1600px' }}>
+        {children}
+      </main>
     </>
   );
 };

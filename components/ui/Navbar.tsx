@@ -4,9 +4,11 @@ import NextLink from 'next/link';
 export const Navbar = () => {
   return (
     <AppBar>
-      <Toolbar>
+      <Toolbar
+        sx={{ paddingBottom: 1.5, mx: 12, borderBottom: '1px solid #212121' }}
+      >
         <Box flex={1}></Box>
-        <Box>
+        <Box display="flex">
           <NextLink href="/" passHref>
             <Link>
               <Button className="navLink">Home</Button>
@@ -24,7 +26,7 @@ export const Navbar = () => {
           </NextLink>
           <NextLink href="/contact" passHref>
             <Link>
-              <Button className="navLink margin-right">Contact</Button>
+              <Button className="navLink ">Contact</Button>
             </Link>
           </NextLink>
         </Box>
